@@ -14,7 +14,7 @@ export class UserService {
   }
 
   findOne(id: number) {
-    return this.prisma.user.find
+    return this.prisma.user.
   }
 
   update(id: number, user: Prisma.UserCreateInput) {
